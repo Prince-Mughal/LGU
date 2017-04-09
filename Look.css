@@ -1,0 +1,172 @@
+                /* Page Layout */
+                .PAGE{
+                      width: 100%;
+                      border: 2px solid gray;
+                      }
+                /* Style for First Row */
+                .ROW-1{
+                        background-color: black;
+                        height: 60px;}
+                /* Style for Image */
+                .IMG-ROW-1{
+                            height: 40px;
+                            width:   40px;
+                            padding-bottom: 4px;
+                            padding-top   : 9px;
+                            padding-right : 4px;
+                            padding-left  : 12px;
+                            float: left;
+                            }
+                /* Style for Title */
+                .TITLE-ROW-1{
+                             font-family: purisa; 
+                             color: white;
+                             float: left;
+                             font-weight: bold;
+                             padding-top: 6px;
+                             padding-left: 10px;
+                             padding-right: 28%;}
+                /* Style for MENU */
+                .ROW-1 a{
+                          float: left;
+                          display: block;
+                          color: white;
+                          text-align: center;
+                          padding-bottom: 4px;
+                          padding-top   : 20px;
+                          padding-right : 12px;
+                          padding-left  : 12px;
+                          /* Remove Text Decoration */
+                          text-decoration: none;
+                          font-size: 13px;}
+                /* Style for Second Row */
+                .ROW-2{
+                        background-color: gray;
+                        height: 60px;}
+                /* Style for Title */
+                .CA-ROW-2{
+                             font-family: purisa; 
+                             color: white;
+                             text-align: center;
+                             font-weight: bold;
+                             padding-top: 16px;
+                             padding-bottom: 6px;}
+               /* Style for Third Row */
+               /* FORM STYLE */
+               input[type=text]{ /* Name Style */
+                                 width: 95%;
+                                 margin-top: 12px;
+                                 border: 1px solid gray;
+                                 border-radius: 1px;
+                                 height: 30px;
+                                 padding-left: 6px;}
+               input[type=tel]{ /* Phone Number Style */
+                                 width: 95%;
+                                 margin-top: 6px;
+                                 border: 1px solid gray;
+                                 border-radius: 1px;
+                                 height: 30px;
+                                 padding-left: 6px;}
+               input[type=email]{ /* Email Style */
+                                 width: 95%;
+                                 margin-top: 6px;
+                                 border: 1px solid gray;
+                                 border-radius: 1px;
+                                 height: 30px;
+                                 padding-left: 6px;}
+                       textarea{  /* Text Area */           
+                                 width: 95%;
+                                 margin-top: 6px;
+                                 border: 1px solid gray;
+                                 border-radius: 1px;
+                                 height: 100px;
+                                 padding-left: 6px;}
+                      .SEND{ /* Send Button Style */
+                             font-size: 10px;
+                             padding-left: 30px;
+                             padding-right: 30px;
+                             padding-top: 4px;
+                             padding-bottom: 4px;
+                             background-color: black;
+                             color: white; /* foreground color meant text*/
+                             margin-top: 6px;
+                             margin-bottom: 6px;
+                             border: 1px solid black;
+                             border-radius: 1px;}
+                      .RM-BT{ /* Read More Button Style */
+                             font-size: 10px;
+                             padding-left: 20px;
+                             padding-right: 20px;
+                             padding-top: 6px;
+                             padding-bottom: 6px;
+                             background-color: gray;
+                             color: white; /* foreground color meant text*/
+                             margin-top: 6px;
+                             border: 2px solid black;
+                             border-radius: 1px;}
+                      .REG{ /* Register Button Adjusting Style Div*/
+                             padding-left: 2px;
+                             padding-right: 2px;
+                             padding-top: 90px;
+                             padding-bottom: 100px;
+                             float: left;}
+                      .REG-BT{ /* Register Button Style */
+                             font-size: 10px;
+                             padding-left: 30px;
+                             padding-right: 30px;
+                             padding-top: 8px;
+                             padding-bottom: 8px;
+                             background-color: black;
+                             font-weight: bold;
+                             color: white; /* foreground color meant text*/
+                             margin-top: 6px;
+                             border: 1px solid black;
+                             border-radius: 4px;}
+                     /* Paragraph and Underline Style*/
+                       .SP p,u{
+                             color: white;}
+                     /* Scholarship Portal Style */
+                        .SP{
+                             background-color: gray;
+                             border: 2px solid black;
+                             border-radius: 2em;
+                             text-align: center;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             padding-top: 60px;
+                             padding-bottom: 8px;
+                             margin-right: 8px;
+                             height: 10%;
+                             width: 40%;
+                             float: left;}
+                    /* Third Row Handled Here */
+                      .ROW-3{
+                             width: 100%;
+                             margin-top: 8px;}
+                   .ROW-3-COL-1{
+                             float: left;
+                             width: 50%;
+                             padding-top: 45px;
+                             }
+                   .ROW-3-COL-2{
+                             float: right;
+                             width: 49%;
+                             padding-top: 45px;
+                             }
+                   /* Profile Image Handled Here*/
+                   .IMG-ROW-3 img{ 
+                                  float: left;
+                                  height: 4%;
+                                  width: 4%;
+                                  padding-left: 8px;
+                                  padding-right: 8px;
+                                  padding-top: 8px;
+                                  padding-bottom: 8px;
+                                  border-radius: 6em;
+                                  border: 1px dashed gray;
+                                  margin-right: 8px;
+                               }
+                      /* Handling Style */
+                      h4{
+                         color: gray;
+                         }
